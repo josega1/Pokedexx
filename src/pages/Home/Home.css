@@ -1,0 +1,23 @@
+.logo-container img{
+    max-width: 100%;
+}
+.home__title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #fe1936;
+}
+.home__description{
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+.home__form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

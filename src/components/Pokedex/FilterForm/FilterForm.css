@@ -1,0 +1,38 @@
+.form{
+    margin-bottom: 2rem;
+}
+
+.form__inputs-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.form__input-name{
+    min-width: 300px;
+    padding: 20px 25px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.form__input-type{
+    min-width: 300px;
+    padding: 20px 25px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.form__btn{
+    padding: 10px 24px;
+    margin-top: 1rem;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+
+    background-color: #D93F3F;
+    color: #FFFFFF;
+    border: none;
+}

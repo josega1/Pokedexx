@@ -1,0 +1,10 @@
+.pokedex__message{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.pokedex__message__username{
+    font-weight: 700;
+    font-style: normal;
+    color: #FE1936
+}
