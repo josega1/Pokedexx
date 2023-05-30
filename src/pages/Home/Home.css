@@ -1,5 +1,15 @@
+.container_home {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #1f1f1f;
+}
 .logo-container img{
-    max-width: 100%;
+    max-width: 500px;
 }
 .home__title{
     font-weight: 700;
@@ -20,4 +30,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container-giphy-embed {
+    width: 100%;
+}
+.giphy-embed {
+    border: none;
+    width: 100%;
 }
