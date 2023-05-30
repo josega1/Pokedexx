@@ -29,13 +29,15 @@ const UserNameForm = ({ onSendName }) => {
   return (
     <form onSubmit={handleSubmit}>
       {Boolean(nameError) && <p>{nameError}</p>}
-      <input
+     <div className="container-input">
+      <input className="input-username"
         type="text"
         placeholder="Tu nombre... "
         value={userNameValue}
         onChange={handleChange}
       />
-      <button type="submit"><img src="https://i.pinimg.com/736x/75/b0/72/75b0728c429ced949eb0e9287f7c9a95.jpg" alt="comenzar" /></button>
+     </div>
+      <button type="submit"><img src="./src/images/mapa.png" alt="comenzar" /></button>
     </form>
   );
 };

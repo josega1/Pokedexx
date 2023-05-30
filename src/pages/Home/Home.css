@@ -1,40 +1,59 @@
 .container_home {
-    gap: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    background: #1f1f1f;
-}
-.logo-container img{
-    max-width: 500px;
-}
-.home__title{
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 61px;
-    text-align: center;
+  background: url("../../images/fondoUserName.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
 
-    color: #fe1936;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  width: 100%;
 }
-.home__description{
-    text-align: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
+.container_home-username {
+    margin-left: 50px;
 }
-.home__form-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo-container img {
+  width: 500px;
+}
+
+@media (max-width: 720px) {
+  .logo-container img {
+    width: 310px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  color: #fe1936;
+}
+.home__description {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+}
+.home__form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container-giphy-embed {
-    width: 100%;
+  width: 100%;
 }
 .giphy-embed {
-    border: none;
-    width: 100%;
+  border: none;
+  width: 100%;
 }

@@ -1,0 +1,17 @@
+header {
+    /* background-color: black; */
+}
+.logo_header img {
+    max-width: 300px;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+i {
+background-color: bisque;
+width: 100px;
+}
