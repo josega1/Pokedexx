@@ -11,9 +11,7 @@
   height: 100vh;
   width: 100%;
 }
-.container_home-username {
-    margin-left: 50px;
-}
+
 .logo-container img {
   width: 500px;
 }
@@ -51,10 +49,8 @@
   justify-content: center;
 }
 .container-giphy-embed {
-  width: 100%;
+  width: 300px;
 }
-.giphy-embed {
-  list-style: none;
-  border: none;
-  width: 100%;
+.container-giphy-embed img {
+  width: 300px;
 }
