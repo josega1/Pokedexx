@@ -15,7 +15,7 @@ const PagesComponent = ({
         <button className="fa-solid__button" onClick={() => onBackPage()}><i className="fa-solid fa-backward"></i></button>
 
         {pagesArray.map((page) => (
-            <button key={page} onClick={() => onChangePage(page)}>{page}</button>
+            <button className='page' key={page} onClick={() => onChangePage(page)}>{page}</button>
         ))}
 
         <button className="fa-solid__button" onClick={() => onNextPage()}><i className="fa-solid fa-forward"></i></button>

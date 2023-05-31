@@ -1,10 +1,17 @@
 .form{
-    margin-bottom: 2rem;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
-
+form h2 {
+    color: white;
+}
 .form__inputs-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 2rem;
 }
 
@@ -25,14 +32,16 @@
 }
 
 .form__btn{
-    padding: 10px 24px;
-    margin-top: 1rem;
-
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    width: 70px;
 
-    background-color: #D93F3F;
+    background-color: rgba(255, 255, 255, 0.322);
     color: #FFFFFF;
     border: none;
+    margin-bottom: 30px;
+}
+.options {
+    width: 200px;
 }
