@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { getPokemonById } from "../../../services/getPokemonById"
+import './PokemonCard.css'
 
 const statsTarget = ['Hp', 'attack', 'defense', 'speed'];
 
@@ -23,10 +24,11 @@ const PokemonCard = ({ pokemonId }) => {
         {!pokemon && <p>Loading ... </p>}
         {pokemon && (
             <>
+            
               <div className="pokemon-card__img">
                 <img src={pokemon.image} alt={pokemon.name} />
               </div>
-
+            <div className="container__pokemon-card">
               <h2 className="pokemon-card__title">{pokemon.name}</h2>
               
               <section>
@@ -51,6 +53,8 @@ const PokemonCard = ({ pokemonId }) => {
                     ))}
                 </ul>
               </section>
+            </div>
+              
             </>
         )}
 

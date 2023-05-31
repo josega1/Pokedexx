@@ -32,7 +32,7 @@ const UserNameForm = ({ onSendName }) => {
      <div className="container-input">
       <input className="input-username"
         type="text"
-        placeholder="Tu nombre... "
+        placeholder="Your name... "
         value={userNameValue}
         onChange={handleChange}
       />

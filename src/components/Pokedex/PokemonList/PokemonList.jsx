@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { usePagination } from "../../../hooks/usePagination";
+import './PokemonList.css'
 
 import PagesComponent from "../PagesComponent/PagesComponent";
 import PokemonCard from "../PokemonCards/PokemonCard";
@@ -18,7 +19,7 @@ const PokemonList = ({ pokemons }) => {
           onBackPage={() => changePagesTo(currentPage - 1)}
         />
 
-        <ul>
+        <ul className="container-list">
             {pokemonsSlice.map((pokemon) => (
               <li key={pokemon.url}>
                 <Link style={{color: 'unset', textDecoration: 'unset'}} to={`/pokedex/${pokemon.url.split('/').at(-2)}`}>

@@ -22,8 +22,8 @@ const Layout = () => {
             alt="Pokedex"
           />
             </div>
-            <button onClick={logOut}>
-              <span><i className="fa-sharp fa-solid fa-arrow-up-left-from-circle"></i></span>
+            <button className="btn-header" onClick={logOut}>
+              <i className="fa-solid fa-right-from-bracket"></i>
             </button>
           </div>
         </header>

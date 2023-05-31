@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { UserNameContext } from "../../context/UserNameContext";
 import { useLocation, useNavigate } from "react-router-dom";
-
+import pokeball from "../../images/giphy.gif"
 import UserNameForm from "../../components/home/UserNameForm/UserNameForm";
 
 import "./Home.css";
@@ -20,11 +20,7 @@ const Home = () => {
     <section className="container_home">
       <div className="container_home-username">
       <div className="container-giphy-embed">
-        <iframe
-          src="https://giphy.com/embed/DJM88aCmEeaNG"
-          className="giphy-embed"
-          allowFullScreen
-        ></iframe>
+        <img src={pokeball} alt="pokeball" />
       </div>
         <div className="container-info">
         <div className="logo-container">
@@ -33,9 +29,9 @@ const Home = () => {
             alt="Pokedex"
           />
         </div>
-          <h1 className="home__title">¡Hola entrenador!</h1>
+          <h1 className="home__title">¡Hello Trainer!</h1>
           <p className="home__description">
-            Para poder comenzar, dame tu nombre
+            To start, give me your name
           </p>
         </div>
         <div className="home__form-container">

@@ -54,6 +54,7 @@
   width: 100%;
 }
 .giphy-embed {
+  list-style: none;
   border: none;
   width: 100%;
 }

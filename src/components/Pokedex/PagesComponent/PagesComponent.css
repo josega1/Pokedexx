@@ -1,0 +1,18 @@
+button{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid aliceblue;
+    color: black;
+    background-color: aliceblue;
+}
+.navigate-pages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.fa-solid__button{
+    color: aliceblue;
+    border: none;
+    background: transparent;
+}
