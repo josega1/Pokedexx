@@ -35,14 +35,14 @@ const FilterForm = ({ nameInitial, typeInitial }) => {
 
   return (
     <Form className='form'>
-      <h2>Filtros para la busqueda</h2>
+      <h2>Search filters</h2>
 
       <div className='form__inputs-container'>
          <input 
             value={nameValue}
             onChange={handleChange}
             type="text" 
-            placeholder="Escribe el nombre de tu pokemon" 
+            placeholder="Write the name of your pokemon" 
             name="pokemonName" 
             className='form__input-name'
           /> 
@@ -61,7 +61,7 @@ const FilterForm = ({ nameInitial, typeInitial }) => {
             ))}
           </select>
       </div>
-      <button className='form__btn'>Buscar</button>  
+      <button className='form__btn'>Search</button>  
     </Form>
   )
 }

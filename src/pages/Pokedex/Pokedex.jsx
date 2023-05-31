@@ -12,7 +12,7 @@ const Pokedex = () => {
     
 
   return (
-    <section>
+    <section className='section-pokedex'>
         <p className='pokedex__message'>
           <em className='pokedex__message__username'>Welcome {userName},</em> here you can find your favorite pokemon.
         </p>

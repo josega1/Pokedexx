@@ -31,8 +31,8 @@ const PokemonCard = ({ pokemonId }) => {
             <div className="container__pokemon-card">
               <h2 className="pokemon-card__title">{pokemon.name}</h2>
               
-              <section>
-                <h3>Tipo</h3>
+              <section className="section-type">
+                <h3>Type</h3>
                 <ul className="pokemon-card__list">
                     {pokemon.types.map((type) => (
                         <li key={type} className="pokemon-card__item">
@@ -42,7 +42,7 @@ const PokemonCard = ({ pokemonId }) => {
                 </ul>
               </section>
 
-              <section>
+              <section className="section-stat">
                 <h3>Stats</h3>
                 <ul className="pokemon-card__list">
                     {stats.map((stat) => (

@@ -10,11 +10,11 @@ const UserNameForm = ({ onSendName }) => {
     const nameValue = e.target.value;
     if (!hasInputAlreadyTouched.current) hasInputAlreadyTouched.current = true;
 
-    if (!nameValue) setNameError("El nombre está vacío!");
+    if (!nameValue) setNameError("The name is empty!");
     else if (/[^a-z ]/i.test(nameValue))
-      setNameError("Solo se permiten letras y espacios.");
+      setNameError("Only letters and spaces are permitted.");
     else if (!/^[a-z ]{2,} ?$/i.test(nameValue))
-      setNameError("El nombre debe tener mínimo dos letras");
+      setNameError("The name must have a minimum of two letters");
     else setNameError("");
 
     setUserNameValue(nameValue);
@@ -36,8 +36,11 @@ const UserNameForm = ({ onSendName }) => {
         value={userNameValue}
         onChange={handleChange}
       />
+      <div className="container-button-start">
+        <button type="submit"><img src="./src/images/mapa.png" alt="comenzar" /></button>
+      </div>
+      
      </div>
-      <button type="submit"><img src="./src/images/mapa.png" alt="comenzar" /></button>
     </form>
   );
 };

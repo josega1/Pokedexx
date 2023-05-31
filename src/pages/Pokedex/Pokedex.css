@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-section {
+.section-pokedex {
     background: url(../../images/fondoPokedex.jpg) no-repeat center center fixed;
     background-size: cover;
     padding: 5px;
