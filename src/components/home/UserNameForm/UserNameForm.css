@@ -4,7 +4,8 @@ flex-direction: column;
 gap: 30px; 
 }
 
-button img {
+.fa-solid {
+    color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +40,7 @@ form p {
     align-items: center;
 }
 button {
-    height: 30px;
+    height: 40px;
     background: transparent;
     border: none;
 }
