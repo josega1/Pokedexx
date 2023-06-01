@@ -24,7 +24,7 @@
     border: 1px solid green;
     list-style: none;
 }
-ul li{
+.pokemon-card__list li{
     justify-content: center;
     display: flex;
     text-align: center;

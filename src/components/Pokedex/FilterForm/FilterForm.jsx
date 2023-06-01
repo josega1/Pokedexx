@@ -8,6 +8,7 @@ const FilterForm = ({ nameInitial, typeInitial }) => {
   const [types, setTypes] = useState([]);
   const [nameValue, setNameValue] = useState(nameInitial);
   const [typeValue, setTypeValue] = useState(typeInitial)
+  
 
   const handleChange = (e) =>{
     const newValue = e.target.value;
