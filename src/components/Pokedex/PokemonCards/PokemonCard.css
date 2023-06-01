@@ -1,7 +1,4 @@
-.pokemon-card__img img{
-    width: 300px ;
-}
-.pokemon-card{
+.pokemon-card {
     display: flex;
     flex-direction: column;
     justify-content: center;

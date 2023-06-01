@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { getPokemonById } from "../../services/getPokemonById"
+import { getPokemonById } from "../../services/getPokemonById";
+
 import './PokemonDetail.css'
 
 const statsDetail = ['Hp', 'attack', 'defense', 'speed', "special-attack", "special-defense"];
