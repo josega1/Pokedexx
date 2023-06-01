@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { getPokemonById } from "../../services/getPokemonById";
-
 import './PokemonDetail.css'
 
 const statsDetail = ['Hp', 'attack', 'defense', 'speed', "special-attack", "special-defense"];
@@ -27,6 +26,13 @@ const PokemonDetail = () => {
         {!pokemonDetail && <p>Loading ... </p>}
         {pokemonDetail && (
             <>
+            <div>
+                <Link to={'/pokedex'}>
+                  <button className="btn_back">
+                  <i className="fa-regular fa-circle-left"></i>
+                  </button>
+                </Link>
+              </div>
               <h1>Pokemon Detail</h1> 
               <p>Aqui se evidenciara mas detalles sobre el pokemon con el ID: {pokemonId}</p>
               <div className="pokemondetail-card__img">

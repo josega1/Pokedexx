@@ -11,3 +11,10 @@ body {
 .container-detail h3{
   background-color: white;
 }
+.btn_back i {
+  margin-left: 10px;
+}
+.fa-regular {
+  font-size: 30px;
+  color: white;
+}
